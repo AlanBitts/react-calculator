@@ -1,11 +1,26 @@
-* {
-    font-family: sans-serif;
-  }
-  input,
-  button {
+h1 {
+  color: #f1356d;
+}
+
+body {
+  background-color:  #272822;
+  color: #f8f8f2;
+  font-family: monospace;
+  font-size: large;
+}
+  input {
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
+  }
+
+  button {
+    background: #f1356d;
+    color: black;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
   }
   input {
     display: block;
@@ -18,7 +33,7 @@
   }
   button:nth-last-child(2),
   button:nth-last-child(1) {
-    background: tomato;
+    background: #f1356d;
     color: white;
   }
   
